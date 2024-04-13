@@ -1,0 +1,81 @@
+*{
+ 
+    min-width: 200px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.overlay-text {
+    position: absolute;
+    /* min-width: 200px    ; */
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+}
+img{
+    
+    width: 100%;
+    height: 50%;
+}
+/* img.yoo{
+    width: 50%;
+    height: 10%;
+    padding-left: 25%;
+} */
+ .container{
+    position: fixed;
+    text-decoration:none;
+    margin:10px;
+    padding:10px ;
+    align-content: center;
+    font-size: 10px;
+    word-spacing: 3em;
+    vertical-align: middle;
+    padding-left:20% ;
+    padding-right: 34%;
+    background-color: #000000;
+    opacity: 0.6;
+    nav-left: 90%;
+    
+} 
+
+
+.yoo{
+    /* display: inline; */
+    width: 50%;
+}
+
+
+.moo{
+    /* display: inline-block; */
+    width: 50%;
+}
+
+.kako{
+
+    display: flex;
+}
+
+.promo{
+    display: flex;
+}
+
+.koko{
+width: 50%;
+}
+.milon{
+width: 50%;
+}
+
+
+
+
+    
